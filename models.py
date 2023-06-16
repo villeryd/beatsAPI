@@ -22,3 +22,9 @@ class User(BaseModel):
     last_name: str
     gender: Gender
     roles: List[Role]
+
+
+class Beat:
+    title: str
+    artist: str
+    url: Optional[url]
