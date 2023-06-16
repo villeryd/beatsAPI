@@ -13,6 +13,8 @@ class Role(str, Enum):
     user = "user"
     admin = "admin"
 
+# user model
+
 
 class User(BaseModel):
     id: Optional[UUID] = uuid4
